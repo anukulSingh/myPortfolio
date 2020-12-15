@@ -209,7 +209,8 @@ input[class^="btn-"]:hover {
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: #fff;
+  background: black;
+  color: #fff;
 }
 
 a {
@@ -312,12 +313,13 @@ img {
 #home-b .stats div {
   padding: 3rem 0;
 }
-#home-b .stats div:nth-child(odd) {
-  background: #f4f4f4;
-}
-#home-b .stats div:nth-child(even) {
-  background: #ccc;
-}
+/* #home-b .stats div:nth-child(odd) {
+  background: black;
+} */
+/* #home-b .stats div:nth-child(even) {
+  background: #333;
+  border-radius: 50%;
+} */
 
 #home-c .process {
   display: grid;
